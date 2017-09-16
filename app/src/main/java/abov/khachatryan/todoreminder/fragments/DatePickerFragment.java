@@ -8,9 +8,7 @@ import android.support.v4.app.DialogFragment;
 
 import java.util.Calendar;
 
-/**
- * Created by abov on 9/14/17.
- */
+/* Created by abov on 9/14/17.*/
 
 public class DatePickerFragment extends DialogFragment {
 
@@ -22,7 +20,7 @@ public class DatePickerFragment extends DialogFragment {
         int month = c.get(Calendar.MONTH);
         int day = c.get(Calendar.DAY_OF_MONTH);
 
-        return new DatePickerDialog(getActivity(), (DatePickerDialog.OnDateSetListener)getActivity(),
+        return new DatePickerDialog(getActivity(), (DatePickerDialog.OnDateSetListener) getActivity(),
                 year, month, day);
     }
 }

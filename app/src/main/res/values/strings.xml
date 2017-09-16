@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">ToDoReminder</string>
 
-    <string name="change">change</string>
     <string name="add">add</string>
+    <string name="cancel">Cancell</string>
+    <string name="change">change</string>
     <string name="description">Description</string>
     <string name="please_fill_out">Please fill out this field</string>
+    <string name="invalid_date">Invalid Date</string>
 
 </resources>
