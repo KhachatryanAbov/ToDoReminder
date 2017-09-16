@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
                 if (description.matches("")) {
                     mDescriptionEdtTxtView.setError(getString(R.string.please_fill_out));
                 } else {
-                    if (mCalendar.getTimeInMillis() >= Calendar.getInstance().getTimeInMillis()) {
+                    if (mCalendar.getTimeInMillis() > Calendar.getInstance().getTimeInMillis()) {
                         mDescriptionEdtTxtView.setText("");
                         addToDoInDb(createToDoWithDescription(description));
                         createNewAlarm();
