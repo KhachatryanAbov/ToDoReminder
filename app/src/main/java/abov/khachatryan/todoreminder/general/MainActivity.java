@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 
     public static final String ALARM_ACTION_SHOW_TODO = "showToDo";
 
-    private final String SIMPLE_DATE_FORMAT = "dd/MM/YYYY";
+    private final String SIMPLE_DATE_FORMAT = "dd/MM/yyyy";
     private final String SIMPLE_TIME_FORMAT = "HH:mm";
 
     private TextView mDateTxtView;
