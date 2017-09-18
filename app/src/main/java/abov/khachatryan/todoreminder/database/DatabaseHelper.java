@@ -75,6 +75,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 toDo.setmTimeInMillis(cursor.getString(4));
                 toDoList.add(toDo);
             } while (cursor.moveToNext());
+            cursor.close();
         }
         return toDoList;
     }
